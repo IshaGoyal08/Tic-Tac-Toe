@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import circle from "/circle.png";
-import cross from "/cross.png";
+import circle from "/circle.webp";
+import cross from "/cross.webp";
 
 let data = ["", "", "", "", "", "", "", "", ""];
 const Tictactoe = () => {
