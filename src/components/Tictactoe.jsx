@@ -83,21 +83,21 @@ const Tictactoe = () => {
           <div className="row1">
             <div
               ref={box1}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 0);
               }}
             ></div>
             <div
               ref={box2}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 1);
               }}
             ></div>
             <div
               ref={box3}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 2);
               }}
@@ -106,21 +106,21 @@ const Tictactoe = () => {
           <div className="row2">
             <div
               ref={box4}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 3);
               }}
             ></div>
             <div
               ref={box5}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] px-[50px] py-[50px]  flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] px-[50px] py-[50px]  flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 4);
               }}
             ></div>
             <div
               ref={box6}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 5);
               }}
@@ -129,21 +129,21 @@ const Tictactoe = () => {
           <div className="row3">
             <div
               ref={box7}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] px-[50px] py-[50px] flex h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 6);
               }}
             ></div>
             <div
               ref={box8}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] flex px-[50px] py-[50px] h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] flex px-[50px] py-[50px] h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 7);
               }}
             ></div>
             <div
               ref={box9}
-              className="boxes max-sm:h-[30px] max-sm:w-[30px] flex px-[50px] py-[50px] h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
+              className="boxes max-sm:h-[30px] max-sm:w-[30px] max-sm:px-[8px] max-sm:py-[8px] flex px-[50px] py-[50px] h-[160px] w-[160px] bg-[#1f3540] border-solid border-4 border-[#0f1b21] cursor-pointer rounded-md"
               onClick={(e) => {
                 toggle(e, 8);
               }}
